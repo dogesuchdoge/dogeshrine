@@ -9,6 +9,7 @@
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   flex-wrap:wrap;
+
 }
 .welcome img{
   width: 100%;
@@ -21,6 +22,9 @@
  }
 #fifty {
   width: 75%;
+}
+.billboard img{
+  width: 100%;
 }
 .header {
    text-align: center;
@@ -36,7 +40,9 @@ p {
 h2 {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
-
+#bilby {
+  margin-top: 70px;
+}
 .nav{
   background-color: black;
   height: 80px;
@@ -46,6 +52,8 @@ h2 {
   z-index:2;
   left: 0;
   top:0;
+  border-bottom: 8px solid #00CC00;
+  margin-left: 0px;
 }
 ul {
   display: flex;
