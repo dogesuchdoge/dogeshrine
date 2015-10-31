@@ -13,11 +13,15 @@
 .welcome img{
   width: 100%;
 }
-
+.head{
+    margin-top: 150px;
+}
  #wow {
    width: 50%;
  }
-
+#fifty {
+  width: 75%;
+}
 .header {
    text-align: center;
    font-family: "Comic Sans MS", cursive, sans-serif;
@@ -31,4 +35,29 @@ p {
 
 h2 {
   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.nav{
+  background-color: black;
+  height: 80px;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  z-index:2;
+  left: 0;
+  top:0;
+}
+ul {
+  display: flex;
+  justify-content: center; /* align horizontal */
+}
+
+li {
+  margin-right: 2.5em;
+  margin-left: 2.5em;
+  margin-top: 10px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5em;
+  color: #fff;
+  display: inline;
 }
