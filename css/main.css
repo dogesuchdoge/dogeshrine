@@ -1,6 +1,7 @@
 .container {
   max-width: 800px;
   padding: 5px;
+  text-align: center;
 }
 
 .row {
@@ -17,8 +18,17 @@
    width: 50%;
  }
 
- #title {
+.header {
    text-align: center;
    font-family: "Comic Sans MS", cursive, sans-serif;
    margin-bottom: 20px;
+   font-size: 4em;
  }
+
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
